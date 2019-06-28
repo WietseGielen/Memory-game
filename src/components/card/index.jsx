@@ -4,9 +4,11 @@ import PropTypes from 'prop-types'
 import './style.css'
 
 export default function Card({
+    disabled,
     handleClick, 
     id, 
     type,
+    solved,
     flipped, 
     height, 
     width
@@ -16,7 +18,7 @@ export default function Card({
         style={{
            width,height 
         }}
-        onClick={() => handleClick(id)}
+        onClick={() => disabled ?  null : handleClick(id)}
     >
         <div className="flipper">
             <img
@@ -24,7 +26,7 @@ export default function Card({
                     height, width
                 }}
                 className={flipped ? 'front' : 'back'}
-                src={flipped 
+                src={flipped || solved  
                     ? require(`./img/${type}.png`) 
                     : require('./img/back.png')
                 }
@@ -34,9 +36,11 @@ export default function Card({
 }
 
 Card.propTypes = {
+    disabled: PropTypes.bool.isRequired,
     handleClick: PropTypes.func.isRequired,
     id: PropTypes.number.isRequired,
     flipped: PropTypes.bool.isRequired,
+    solved: PropTypes.bool.isRequired,
     type: PropTypes.string.isRequired,
     height: PropTypes.number.isRequired,
     width: PropTypes.number.isRequired
