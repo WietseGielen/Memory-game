@@ -45,7 +45,7 @@ export default function App() {
 
   const preloadImages = () => {
     cards.map(card => {
-      const src = `img/${card.type}.png`
+      const src = `./img/${card.type}.png`
       new Image().src = src
     })
   }
@@ -74,7 +74,6 @@ export default function App() {
 
   return (
     <div>
-      <h1>Memory</h1>
       <h2>Can you remember where the cards are?</h2>
       <Board
         dimension={dimension}
