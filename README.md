@@ -8,7 +8,7 @@ Demo: [Deployed page](https://wietsegielen.github.io/Memory-game/)
 - [ ] add some styles
 
 ## The path: From objective to result
-1. Desiding how I want to build the app: React => less repetitive
+1. Deciding how I want to build the app: React => less repetitive
 2. Trying to code from scratch
 3. Getting stuck when I want to add game logic
 4. restart with help of tutorial
