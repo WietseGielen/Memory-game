@@ -5,11 +5,11 @@ import Board from './components/board'
 import initializeDeck from './deck'
 
 export default function App() {
-  const [cards, setCards] = useState([])
-  const [flipped, setFlipped] = useState([])
-  const [dimension, setDimension] = useState(400)
-  const [solved, setSolved] = useState([])
-  const [disabled, setDisabled] = useState(false)
+  const [cards, setCards] = useState([]) // Empty cards array
+  const [flipped, setFlipped] = useState([]) // Empty flipped state array
+  const [dimension, setDimension] = useState(400) // ~styling
+  const [solved, setSolved] = useState([]) // Empty solved state array
+  const [disabled, setDisabled] = useState(false) // Empty disabled state array
 
   useEffect(() => {
     resizeBoard()
