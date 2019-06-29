@@ -1,4 +1,3 @@
-![alt-text](https://i.ibb.co/P9Df3RL/Knipsel.jpg)
 # Memory Game 
 Demo: [Deployed page](https://wietsegielen.github.io/Memory-game/)   
 
@@ -13,3 +12,7 @@ Demo: [Deployed page](https://wietsegielen.github.io/Memory-game/)
 2. Trying to code from scratch
 3. Getting stuck when I want to add game logic
 4. restart with help of tutorial
+
+## Screenshots
+![alt-text](https://i.ibb.co/P9Df3RL/Knipsel.jpg)
+![alt-text](https://i.ibb.co/0hrLYp1/Knipsel.jpg)
