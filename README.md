@@ -1,3 +1,4 @@
+![alt-text](https://i.ibb.co/P9Df3RL/Knipsel.jpg)
 # Memory Game 
 Demo: [Deployed page](https://wietsegielen.github.io/Memory-game/)   
 
