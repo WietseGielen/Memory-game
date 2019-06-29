@@ -25,8 +25,11 @@ export default function App() {
     return () => window.removeEventListener('resize', resizelistener)
   })
 
+  const message = document.querySelector('h2')
+
   const handleClick = (id) => { 
     setDisabled(true)
+    console.log(solved.length + 2, cards.length)
     if(flipped.length == 0) {
       setFlipped([...flipped, id])
       setDisabled(false)
@@ -37,6 +40,9 @@ export default function App() {
       if (isMatch(id)) {
         setSolved([... solved, flipped[0], id])
         resetCards()
+      } else if (solved.length + 2 == cards.length) {
+        message.innerHTML += " YOU WIN!!!!!!!!!"
+        console.log(message.innerHTML)
       } else {
         setTimeout(resetCards, 2000)
       }
