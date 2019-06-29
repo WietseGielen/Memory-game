@@ -10,7 +10,7 @@ Demo: [Deployed page](https://wietsegielen.github.io/Memory-game/)
 ## The path: From objective to result
 1. Deciding how I want to build the app: React => less repetitive
 2. Trying to code from scratch
-3. Getting stuck when I want to add game logic
+3. Getting stuck when I tried to add game logic
 4. restart with help from tutorial
 
 ## Screenshots
