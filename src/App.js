@@ -28,7 +28,7 @@ export default function App() {
 
   const message = document.querySelector('h2')
 
-  const handleClick = (id) => { 
+  const handleClick = (id) => { // Game logic
     setDisabled(true)
     console.log(solved.length + 2, cards.length)
     if(flipped.length == 0) {
