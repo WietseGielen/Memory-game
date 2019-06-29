@@ -16,3 +16,4 @@ Demo: [Deployed page](https://wietsegielen.github.io/Memory-game/)
 ## Screenshots
 ![alt-text](https://i.ibb.co/P9Df3RL/Knipsel.jpg)
 ![alt-text](https://i.ibb.co/0hrLYp1/Knipsel.jpg)
+![alt-text](https://i.ibb.co/8s6ysqW/Knipsel.jpg)
