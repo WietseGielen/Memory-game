@@ -26,6 +26,7 @@ export default function Board({ solved, disabled, dimension, cards, flipped, han
 }
 
 Board.propTypes = {
+    solved: PropTypes.bool.isRequired,
     disabled: PropTypes.bool.isRequired,
     dimension: PropTypes.number.isRequired,
     cards: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
